@@ -1,7 +1,14 @@
-.thumbnail {
-  /* width: 100vw; */
+.wadah-thumbnail {
+  position: relative;
   height: 100vh;
 }
+
+.thumbnail {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  position: unset;
+}
+
 video {
   position: absolute;
   top: 0;
@@ -14,6 +21,7 @@ video {
   object-position: center;
   object-fit: cover;
 }
+
 .text-about {
   font-size: 16px;
   font-weight: 400;
@@ -44,9 +52,10 @@ video {
 }
 
 #parallel {
-  border-radius: 25px;
-  padding: 1rem;
-  border: 2px solid #164c5d;
+  /* border-radius: 25px; */
+  /* padding: 1rem; */
+  border: none;
+  /* border: 2px solid #164c5d; */
   text-align: center;
   width: 30%;
   margin: auto;
@@ -81,6 +90,7 @@ hr {
   opacity: inherit;
   margin-top: 0.2rem !important;
 }
+
 hr:not([size]) {
   height: 4px;
 }
@@ -93,12 +103,15 @@ hr:not([size]) {
   background-color: none;
   border: none;
 }
+
 .text-list {
   color: #494848;
 }
+
 a {
   text-decoration: none;
 }
+
 /* .btn-custom {
   width: 100%;
   background: rgb(49, 47, 47);
@@ -146,6 +159,7 @@ a {
   background-size: cover;
   background-position: top;
 }
+
 /* .jeda{
     height: 500px;
 } */
@@ -175,6 +189,7 @@ a {
     display: none;
   }
 }
+
 @media screen and (max-width: 780px) {
   #parallel {
     width: 100%;

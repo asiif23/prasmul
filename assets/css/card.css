@@ -1,24 +1,27 @@
-.card-body{
-    height: 150px;
+.card-body {
+  height: 150px;
 }
-.card-footer{
-    border: 0;
-    padding: 1rem;
+
+.card-footer {
+  border: 0;
+  padding: 1rem;
 }
-.card-text{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    color: #fff;
+
+.card-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #fff;
 }
-.card-subtext{
-    font-weight: 400;
-    font-size: 20px;
-    color: #fff;
+
+.card-subtext {
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
 }
 
 .card-1 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("../image/bg/1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg/1.jpg");
   border-radius: 25px;
   background-position: center;
   background-size: cover;
@@ -27,7 +30,7 @@
 }
 
 .card-2 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("../image/bg/2.webp");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg/2.webp");
   border-radius: 25px;
   background-position: center;
   background-size: cover;
@@ -36,7 +39,7 @@
 }
 
 .card-3 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("../image/bg/3.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg/3.jpg");
   border-radius: 25px;
   background-position: center;
   background-size: cover;
@@ -45,7 +48,7 @@
 }
 
 .card-4 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("../image/bg/4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg/4.jpg");
   border-radius: 25px;
   background-position: center;
   background-size: cover;
@@ -54,7 +57,16 @@
 }
 
 .card-5 {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("../image/bg/5.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg/5.jpg");
+  border-radius: 25px;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  border: 0;
+}
+
+.card-6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/bg/7.jpg");
   border-radius: 25px;
   background-position: center;
   background-size: cover;
